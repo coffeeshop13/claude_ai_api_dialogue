@@ -5,7 +5,7 @@ import base64
 import mimetypes
 from anthropic import Anthropic
 import ipywidgets as widgets
-from IPython.display import display, clear_output, Javascript, HTML
+from IPython.display import display, clear_output, Javascript, HTML 
 
 api_key = os.environ.get("ANTHROPIC_API_KEY", "your-api-key-here")
 client = Anthropic(api_key=api_key)
